@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="https://code.jquery.com/jquery-2.2.3.js">
+	</script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<title>All Veggie Everything!</title>
+</head>
+<body>
+	<header class="jumbotron">
+		<h1>All Veggie Everything!</h1>
+		<p class="text-muted">A place to search for vegetarian recipes.</p>
+		<form>
+			<input id="searchTerm" type="text"><br><input id="searchSubmit" type="submit" class="btn btn-default" value="Find Me Something Yummy">
+		</form>
+		<div id="results"></div>
+
+	</header>
+
+	<div class="container-fluid main-content">
+		<div class="row1">
+			<section class="col-md-7" id="section-browse">
+				<header>
+					<h2>Browsed Recipes</h2>
+					<hr>
+				</header>
+				<!-- <form>
+					<input id="searchTerm" type="text"> <input id="searchSubmit" type="submit" class="btn btn-default" value="Find Me Something Yummy">
+				</form>
+				<p class="lead">Enter an ingredient that you want to find a recipe for!</p> -->
+
+			</section>
+			<div class="img-container"><img alt="Pepper" src="https://s-media-cache-ak0.pinimg.com/736x/80/52/bf/8052bf718defc2107a6512728c781923.jpg" style="width:250px;height:250px;"></div>
+
+		</div>
+
+		<div class="row2">
+			<section class="col-md-7" id="section-recipes">
+				<header>
+					<h2>Recipes to Try</h2>
+					<hr>
+				</header>
+				<!-- <div class="img-container2"><img alt="broccoli" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4q91_GdGoEzPcJFX1OMQlPMzgNPIolOd_fVqSKsp3tM5eJFa4" style="width:300px;height:300px;"></div> -->
+				<ul class="list-inline"></ul>
+			</section>
+
+		</div>
+	</div><!-- <script>
+      $("#section-browse").submit(function(evt) {
+        evt.preventDefault();
+        var query = $("#section-browse input[name=query]").val();
+        searchRecipes(query, render);
+      });
+    </script> -->
+	<!-- <div class="veg-images">
+		<div class="img-container"><img alt="Broccoli" src="https://s-media-cache-ak0.pinimg.com/originals/b6/7c/11/b67c1197d4dc183199d5882e739ae536.jpg" style="width:250px;height:250px;"></div>
+		<div class="img-container"><img alt="Pepper" src="https://s-media-cache-ak0.pinimg.com/736x/80/52/bf/8052bf718defc2107a6512728c781923.jpg" style="width:250px;height:250px;"></div>
+		<div class="img-container"><img alt="carrot" src="https://s-media-cache-ak0.pinimg.com/236x/79/4d/2a/794d2a7b08d97e96158fbfa88c7f2fca--food-illustrations-watercolor-art.jpg" style="width:250px;height:250px;"></div>
+	</div> -->
+	<script src="js/recipefinder.js"></script>
+
+</body>
+</html>
