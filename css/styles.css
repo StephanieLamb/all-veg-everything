@@ -1,7 +1,7 @@
 .jumbotron {
 	
     background-image: url("https://images.unsplash.com/photo-1474440692490-2e83ae13ba29?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=");
-    color: black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     width: 1439px;
     height: 547px;
@@ -12,12 +12,19 @@
 }
 
 
-.broccoli {
+#broccoli {
     width: 59px;
     height: 56px;
     object-fit: contain;
     align-content: left;
+    float: left;
+    margin-left: 30px;
   
+  
+}
+
+#title {
+    padding-top: 7px;
 }
 
 #smallHeader {
@@ -28,6 +35,9 @@
   font-weight: bold;
   letter-spacing: -0.5px;
   color: #ffffff;
+  align-content: left;
+  
+  
 }
 
 
@@ -50,6 +60,9 @@
 }
 
 #input {
-    width: 216px;
-    height: 34px;
+    width: 839px;
+    height: 81px;
+    border-radius: 5px;
+    color: black;
+    
 }
