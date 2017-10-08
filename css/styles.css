@@ -66,3 +66,19 @@
     color: black;
     
 }
+
+#searchSubmit {
+    height: 81px;
+    
+    color: white;
+    border-radius: 5px;
+    background-color: #9ACD32;
+    float: right;
+
+}
+
+#rectangle {
+    display: inline-block;
+    position: relative;
+
+}
