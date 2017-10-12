@@ -82,3 +82,12 @@
     position: relative;
 
 }
+
+#recipeCard {
+    display: inline-block;
+    float: right;
+    height: 401px;
+    width: 300px;
+    
+
+}
