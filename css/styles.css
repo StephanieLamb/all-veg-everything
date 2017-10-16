@@ -88,6 +88,10 @@
     float: right;
     height: 401px;
     width: 300px;
-    
 
+
+}
+
+#recipeLink {
+    display: inline-block;
 }
