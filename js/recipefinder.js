@@ -70,10 +70,11 @@ $(function(){
             if (recipes.length > 0){
                 var sectionBrowse = $("#sectionBrowse");
                 var recipeList = $("<ul>");
+                var recipeCard = $(recipe.picture + recipe.link);
                 var listItem = $("#recipeCard");
                 recipes.forEach(function(recipes) {
-                    var listItem = $(recipes.picture + recipes.link);
-
+                    // var listItem = $(recipes.picture + recipes.link);
+                    
                     recipeList.append(listItem);
 
 
