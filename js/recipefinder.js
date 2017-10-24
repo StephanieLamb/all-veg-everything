@@ -70,12 +70,12 @@ $(function(){
             if (recipes.length > 0){
                 var sectionBrowse = $("#sectionBrowse");
                 var recipeList = $("<ul>");
-                var recipeCard = $(recipe.picture + recipe.link);
-                var listItem = $("#recipeCard");
+                var recipeCard = $("#recipeCard");
+                // var listItem = $("#recipeCard");
                 recipes.forEach(function(recipes) {
-                    // var listItem = $(recipes.picture + recipes.link);
+                    var recipeCard = $(recipes.picture + recipes.link);
                     
-                    recipeList.append(listItem);
+                    recipeList.append(recipeCard);
 
 
             });
