@@ -49,11 +49,7 @@ $(function(){
             var results= [];
         
             recipes.forEach(function(recipe) {
-            // var searchTerm = $("#searchTerm").val();
-            // if (recipe.keyword === searchTerm){
-            //     results.push(recipe);
-                
-            // }
+      
             var searchTerm = $("#input").val();
             if (recipe.keyword === searchTerm){
                 results.push(recipe);
