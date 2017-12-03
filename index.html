@@ -11,46 +11,65 @@
 	
 </head>
 <body>
-	<header class="jumbotron">
-		<div id="smallHeader">
-			<div id="broccoli">
-				<img src="/Users/stephanielamb/Downloads/broccoli_2017-10-01/broccoli.png">
-			</div>
-			<div id="title">	
-				<h3>AllVeggieEverything</h3>
-			</div>
-		</div>
-		
-		
-		<h1>The Vegan Recipe Bot</h1>
-		
-		
-		<div id="results"></div>
-		<div id="output"></div>
-		<div id="rectangle">
-			<div id="container">
-    			<input type="text" id="input" value="">
-				<form>
-					<input id="searchSubmit" type="button" value="Find Me Something Yummy">
-				<!--<input id="searchTerm" type="text" value="">-->
-				</form>
-			</div>
-			
-		</div>
-	</header>
+	<div class="container">
+		<div id="upperContent" class="row jumbotron">
+			<div class="col-md-12">
 
-	<div class="container-fluid main-content">
-		
-			<section id="sectionBrowse">
-				<div id="recipeCard">
-			
+				<div id="title" class="row pull-left">
+					<div class="col-md-12">
+						<div id="smallHeader">
+							<div id="broccoli">
+								<img src="/Users/stephanielamb/Downloads/broccoli_2017-10-01/broccoli.png">
+							</div>
+					
+							<div id="title">	
+								<h3>AllVeggieEverything</h3>
+							</div>
+						</div>
+					</div>
+				</div><!-- title -->
+
+				<div id="foodInput" class="row">
+					<div class="col-md-12">
+						<h1>The Vegan Recipe Bot</h1>
+						<div id="results"></div>
+						<div id="output"></div>
+						
+							
+								
+						<form class="form-horizontal">
+							<div class="form-group">
+							
+									<input class="input-lg col-md-8" type="text" id="input" value="">
+									
+									<input class="btn btn-warning btn-lg col-md-4" id="searchSubmit" type="button" value="Find Me Something Yummy">
+								
+							
+								<!-- <input id="searchSubmit" type="button" value="Find Me Something Yummy"> -->
+							</div>
+						</form>
+					
 				
-
+						
+					</div>
 				</div>
-				
-			</section>
+
+			</div>
+		</div>
+		
+		<div id="lowerContent" class="row">
+			<div class="col-md-12">
+				<section id="sectionBrowse">
+					<div id="recipeCard">
+					</div>
+				</section>
+			</div>
+		</div>
+	
 	
 	</div>
+	
+	
 	<script src="js/recipefinder.js"></script>
 
 </body>
