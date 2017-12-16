@@ -85,6 +85,11 @@
 .recipeListItem {
     display: inline-block;
     margin: 20px;
+    border: solid 1px #778899;
+    border-radius: 3px;
+    padding: 10px; 
+
+
 }   
 
 #buttonLink {
