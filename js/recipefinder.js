@@ -260,15 +260,8 @@ $(function(){
                     picture: '<img src="https://mindfulavocado.com/wp-content/uploads/2018/01/avocado-fries_006.jpg" display="block" style="width:200px;height:250px;">'
                 },
                 {
-                    name: 'Crispy Rice Squares',
-                    keyword: 'snack',
-                    time: 'no',
-                    link: '<a href="https://www.whoneedssalad.com/crispy-rice-squares/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Crispy Rice Squares</a>',
-                    picture: '<img src="https://i0.wp.com/www.whoneedssalad.com/wp-content/uploads/2018/01/crispy-rice-squares.jpg?w=1616&ssl=1" display="block" style="width:200px;height:250px;">'
-                },
-                {
                     name: 'Caramel Peanut Butter Truffles',
-                    keyword: 'snack',
+                    keyword: 'dessert',
                     time: 'no',
                     link: '<a href="http://oatsodelicious.com/2017/12/29/salted-caramel-peanut-butter-truffles/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Caramel Peanut Butter Truffles</a>',
                     picture: '<img src="http://oatsodelicious.com/wp-content/uploads/2017/12/IMG_20171229_151933-750x867.jpg" display="block" style="width:200px;height:250px;">'
@@ -301,6 +294,189 @@ $(function(){
                     link: '<a href="https://mindfulavocado.com/best-hummus-recipe/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">The Best Hummus</a>',
                     picture: '<img src="https://mindfulavocado.com/wp-content/uploads/2017/09/hummus_004.jpg" display="block" style="width:200px;height:250px;">'
                 },
+                {
+                    name: 'Sweet Potato Wedges',
+                    keyword: 'snack',
+                    time: 'no',
+                    link: '<a href="http://nodairynocry.com/sweet-potato-wedges/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Sweet Potato Wedges</a>',
+                    picture: '<img src="http://nodairynocry.com/wp-content/uploads/2017/12/sweet-potato-wedges6.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Peanut Butter Oatmeal Cookies',
+                    keyword: 'dessert',
+                    time: 'no',
+                    link: '<a href="https://www.foodfaithfitness.com/easy-peanut-butter-oatmeal-banana-cookies/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Peanut Butter Oatmeal Cookies</a>',
+                    picture: '<img src="https://www.foodfaithfitness.com/wp-content/uploads/2017/12/easy-peanut-butter-oatmeal-banana-cookies-picture-683x1024.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'No Bake PB Cherry Bites',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="https://bucketlisttummy.com/no-bake-pb-cherry-trail-mix-bites/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">No Bake PB Cherry Bites</a>',
+                    picture: '<img src="https://i2.wp.com/bucketlisttummy.com/wp-content/uploads/2016/05/Peanut-Butter-Cherry-Trail-mix-Bites6.jpg?w=705&ssl=1" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'One Bowl Sugar Cookies',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="http://theloopywhisk.com/2018/01/09/1-bowl-gluten-free-vegan-sugar-cookies/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">One Bowl Sugar Cookies</a>',
+                    picture: '<img src="http://theloopywhisk.com/wp-content/uploads/2018/01/Gluten-Free-Vegan-Sugar-Cookies_663px-6.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Chocolate Fudge Cake',
+                    keyword: 'dessert',
+                    time: 'no',
+                    link: '<a href="http://domesticgothess.com/blog/2018/01/09/vegan-chocolate-fudge-cake/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Chocolate Fudge Cake</a>',
+                    picture: '<img src="http://domesticgothess.com/wp-content/uploads/2018/01/vegan-chocolate-fudge-layer-cake.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Flourless Chocolate Chip Cookies',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="https://sprinkleofvanillasugar.wordpress.com/2017/12/31/flourless-cashew-chocolate-chip-cookies-paleo-gf-dairy-free/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Flourless Chocolate Chip Cookies</a>',
+                    picture: '<img src="https://sprinkleofvanillasugar.files.wordpress.com/2017/12/edit-27.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'No Bake Vegan Cheesecake',
+                    keyword: 'dessert',
+                    time: 'no',
+                    link: '<a href="https://www.powered-by-mom.com/no-bake-vegan-cheesecake-recipe/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">No Bake Vegan Cheesecake</a>',
+                    picture: '<img src="https://i2.wp.com/www.powered-by-mom.com/wp-content/uploads/2018/01/No-Bake-Mini-Vegan-Chocolate-Cheesecakes-1.jpg?resize=1000%2C1500&ssl=1" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Raw Lime Cheesecake',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="http://nutritionrefined.com/raw-vegan-cheesecake/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Raw Lime Cheesecake</a>',
+                    picture: '<img src="http://nutritionrefined.com/wp-content/uploads/2016/12/raw-lime-cheesecake-vegan-paleo-healthy.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Spiced Hot Fruit Cake',
+                    keyword: 'dessert',
+                    time: 'no',
+                    link: '<a href="https://www.cottercrunch.com/gluten-free-spiced-hot-fruit-bake/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Spiced Hot Fruit Cake</a>',
+                    picture: '<img src="https://www.cottercrunch.com/wp-content/uploads/2015/12/spiced-hot-fruit-bake-updated.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Glazed Lemon Cake',
+                    keyword: 'dessert',
+                    time: 'no',
+                    link: '<a href="https://www.emilieeats.com/glazed-vegan-lemon-cake/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Glazed Lemon Cake</a>',
+                    picture: '<img src="https://i1.wp.com/www.emilieeats.com/wp-content/uploads/2017/12/glazed-vegan-lemon-cake-holidays-dessert-christmas-dairy-free-vegetarian-plant-based-9.jpg?w=680&ssl=1" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Chocolate Peppermint Cups',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="http://katalysthealthblog.com/chocolate-peppermint-crunch-cups/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Chocolate Peppermint Cups</a>',
+                    picture: '<img src="https://i0.wp.com/katalysthealthblog.com/wp-content/uploads/2017/12/PeppermintCrunchCups2.jpg?resize=768%2C970" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Raw Tiramisu Bites',
+                    keyword: 'dessert',
+                    time: 'no',
+                    link: '<a href="http://theloopywhisk.com/2017/12/30/raw-vegan-tiramisu-bites-gluten-dairy-free-paleo/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Raw Tiramisu Bites</a>',
+                    picture: '<img src="http://theloopywhisk.com/wp-content/uploads/2017/12/Raw-Vegan-Tiramisu-Bites_663px-3.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'No Bake Chocolate Peanut Butter Cookies',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="https://thebigmansworld.com/2017/12/14/4-ingredient-chocolate-peanut-butter-no-bake-cookies-keto-paleo-vegan/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">No Bake Chocolate Peanut Butter Cookies</a>',
+                    picture: '<img src="https://i2.wp.com/thebigmansworld.com/wp-content/uploads/2017/12/4-ingredient-chocolate-peanut-butter-no-bake-cookies-5.jpg?w=680&ssl=1" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Chocolate Swiss Roll',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="http://nodairynocry.com/chocolate-swiss-roll/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Chocolate Swiss Roll</a>',
+                    picture: '<img src="http://nodairynocry.com/wp-content/uploads/2017/12/chocolate-swiss-roll-cake12a.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Salted Caramel Chocolate Tarts',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="http://www.radiantrachels.com/vegan-salted-caramel-chocolate-tarts-baileys/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Salted Caramel Chocolate Tarts</a>',
+                    picture: '<img src="http://www.radiantrachels.com/wp-content/uploads/2017/12/Baileys-Salted-Caramel-Chocolate-Tarts-1-683x1024.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Chocolate Peanut Fudge',
+                    keyword: 'dessert',
+                    time: 'yes',
+                    link: '<a href="https://whatsheate.com/2017/12/11/vegan-chocolate-peanut-fudge/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Chocolate Peanut Fudge</a>',
+                    picture: '<img src="https://whatsheate.com/wordpress/wp-content/uploads/2017/12/Chocolate-Vegan-Fudge-3.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Ranch Kale Chips',
+                    keyword: 'snack',
+                    time: 'yes',
+                    link: '<a href="http://riseshinecook.ca/blog/dehydrator-101--raw-vegan-oil-free-ranch-kale-chips" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Ranch Kale Chips</a>',
+                    picture: '<img src="http://riseshinecook.ca/file/5a1c0b2700b01a4aa28b16c5" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Cheezy Broccoli Chips',
+                    keyword: 'snack',
+                    time: 'yes',
+                    link: '<a href="http://sproutingzen.com/dehydrated-raw-vegan-cheezy-broccoli-chips/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Cheezy Broccoli Chips</a>',
+                    picture: '<img src="http://sproutingzen.com/wp-content/uploads/2018/01/dehydrated-vegan-cheezy-broccoli-chips-9-of-11.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Ultimate Loaded Nachos',
+                    keyword: 'snack',
+                    time: 'no',
+                    link: '<a href="https://www.noracooks.com/ultimate-fully-loaded-vegan-nachos/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Ultimate Loaded Nachos</a>',
+                    picture: '<img src="https://i2.wp.com/www.noracooks.com/wp-content/uploads/2017/12/IMG_4757.jpg?w=667&ssl=1" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Better Than Cheese Queso',
+                    keyword: 'snack',
+                    time: 'yes',
+                    link: '<a href="https://www.wholly-plants.com/2018/01/09/plant-based-queso/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Better Than Cheese Queso</a>',
+                    picture: '<img src="https://i2.wp.com/www.wholly-plants.com/wp-content/uploads/2018/01/Vegan-Queso-2.jpg?resize=768%2C753&ssl=1" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Eggnog French Toast Casserole',
+                    keyword: 'breakfast',
+                    time: 'no',
+                    link: '<a href="https://www.blissfulbasil.com/vegan-eggnog-french-toast-casserole" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Eggnog French Toast Casserole</a>',
+                    picture: '<img src="https://www.blissfulbasil.com/wp-content/uploads/2017/10/Vegan-Eggnog-French-Toast-Casserole-9279.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Breakfast Polenta Bake',
+                    keyword: 'breakfast',
+                    time: 'no',
+                    link: '<a href="https://www.thedevilwearsparsley.com/2018/01/09/breakfast-polenta-bake/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Breakfast Polenta Bake</a>',
+                    picture: '<img src="https://www.thedevilwearsparsley.com/images/2018/Food/BreakfastPolentaBake/BreakfastPolentaBake-11.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Vegan French Crepes',
+                    keyword: 'breakfast',
+                    time: 'no',
+                    link: '<a href="https://annabanana.co/vegan-french-crepes/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Vegan French Crepes</a>',
+                    picture: '<img src="https://annabanana.co/wp-content/uploads/2018/01/Vegan-French-Crepes-3-of-10.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Sweet & Spicy Eggplant Bacon',
+                    keyword: 'breakfast',
+                    time: 'no',
+                    link: '<a href="https://abraskitchen.com/sweet-spicy-eggplant-bacon/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Sweet & Spicy Eggplant Bacon</a>',
+                    picture: '<img src="https://abraskitchen.com/wp-content/uploads/Sweet-and-Spicy-Eggplant-Bacon-6.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Lemon Blueberyy Biscuits',
+                    keyword: 'breakfast',
+                    time: 'no',
+                    link: '<a href="https://peasandcrayons.com/2013/06/fluffy-lemon-blueberry-biscuits.html" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Lemon Blueberyy Biscuits</a>',
+                    picture: '<img src="https://peasandcrayons.com/wp-content/uploads/2013/06/fluffylemonblueberrybiscuitwithbluberrycompoteandhoneylemonglazetitlewatermark-1.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                {
+                    name: 'Herb Mushroom Gravy and Biscuits',
+                    keyword: 'breakfast',
+                    time: 'no',
+                    link: '<a href="https://www.peacefuldumpling.com/vegan-thanksgiving-recipes-herb-mushroom-gravy-biscuits" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Herb Mushroom Gravy & Biscuits</a>',
+                    picture: '<img src="https://www.peacefuldumpling.com/wp-content/uploads/2014/11/vegan_gravy_biscuits_4-700x769.jpg" display="block" style="width:200px;height:250px;">'
+                },
+                
 
             ];
             var results= [];
