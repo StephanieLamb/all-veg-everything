@@ -1,7 +1,10 @@
 $(function(){ 
     var questionNum = 0;													// keep count of question, used for IF condition.
-    var question = '<h3>Would you like to make a: main dish, breakfast, snack or dessert?</h3>';				  // first question
-
+    var question = '<h3>Would you like to make a: main, breakfast, snack or dessert?</h3>';				  // first question
+    var userInput = {
+        keyword: null,
+        time: null,
+    }
     var output = document.getElementById('output');				// store id="output" in output variable
     output.innerHTML = question;													// ouput first question
 
@@ -10,11 +13,15 @@ $(function(){
         console.log(input);
 
         if (questionNum == 0) {
+            userInput.keyword = input;
+
             output.innerHTML = "<h3>Great...let's make a " + input + "!</h3>";// output response
             document.getElementById("input").value = "";   		// clear text box
             question = '<h3>Do you need a recipe that is 30 minutes or less?</h3>';			    	// load next question
-                setTimeout(timedQuestion, 2000);									// output next question after 2sec delay
+                setTimeout(timedQuestion, 2000);
+            									// output next question after 2sec delay
         }
+      
 
 //     else if (questionNum == 1) {
 //     output.innerHTML = '<h1>That means you were born in ' + (2016 - input) + '</h1>';
@@ -35,6 +42,12 @@ $(function(){
                 questionNum++;																		// increase questionNum count by 1
          }
     });
+        
+        function clearBot() {
+            clearTimeout(input);
+        }
+
+        var clearInput = setTimeout(clearBot, 5000);
 
 
 
@@ -483,8 +496,8 @@ $(function(){
         
             recipes.forEach(function(recipe) {
       
-            var searchTerm = $("#input").val();
-            if (recipe.keyword && recipe.time === searchTerm){
+            userInput.time = document.getElementById("input").value;
+            if ((recipe.keyword === userInput.keyword) && (recipe.time === userInput.time)){
                 results.push(recipe);
             }
 
@@ -493,6 +506,7 @@ $(function(){
         }
 
         $("#searchSubmit").click(function(){
+            
             var recipes = findRecipe();
             // create a loop that displays recipes.
             // if no results display "no results"
