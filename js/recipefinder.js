@@ -531,7 +531,8 @@ $(function () {
         }
 
         else {
-            console.info("No recipes found!");
+            var noRecipes = output.innerHTML = "<h4>No recipes found!</h4>";
+            sectionBrowse.append(noRecipes);
         }
     });
 
