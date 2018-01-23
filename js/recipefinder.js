@@ -398,7 +398,7 @@ $(function () {
                 name: 'No Bake Chocolate Peanut Butter Cookies',
                 keyword: 'dessert',
                 time: 'yes',
-                link: '<a href="https://thebigmansworld.com/2017/12/14/4-ingredient-chocolate-peanut-butter-no-bake-cookies-keto-paleo-vegan/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">No Bake Chocolate Peanut Butter Cookies</a>',
+                link: '<a href="https://thebigmansworld.com/2017/12/14/4-ingredient-chocolate-peanut-butter-no-bake-cookies-keto-paleo-vegan/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Chocolate Peanut Butter Cookies</a>',
                 picture: '<img src="https://i2.wp.com/thebigmansworld.com/wp-content/uploads/2017/12/4-ingredient-chocolate-peanut-butter-no-bake-cookies-5.jpg?w=680&ssl=1" display="block" style="width:200px;height:250px;">'
             },
             {
@@ -529,7 +529,7 @@ $(function () {
         }
 
         else {
-            var noRecipes = output.innerHTML = "<h4>No recipes found!</h4>";
+            var noRecipes = "<h4>No recipes found!</h4>";
             sectionBrowse.append(noRecipes);
         }
     });
