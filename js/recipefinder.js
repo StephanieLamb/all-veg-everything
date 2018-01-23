@@ -6,7 +6,7 @@ $(function () {
         time: null,
     }
     var questions = [
-        '<h3>Would you like to make a: main, breakfast, snack or dessert?</h3>',
+        '<h3>What would you like to make: main, breakfast, side or dessert?</h3>',
         '<h3>Do you need a recipe that is 30 minutes or less?</h3>',
     ]
     var output = document.getElementById('output');				// store id="output" in output variable
@@ -19,7 +19,7 @@ $(function () {
         if (questionNum == 0) {
             userInput.keyword = input;
 
-            output.innerHTML = "<h3>Great...let's make a " + input + "!</h3>";// output response
+            output.innerHTML = "<h3>Great...let's find you a " + input + " dish!</h3>";// output response
             document.getElementById("input").value = "";   		// clear text box
             // question = '<h3>Do you need a recipe that is 30 minutes or less?</h3>';			    	// load next question
             setTimeout(timedQuestion, 2000);
@@ -74,7 +74,7 @@ $(function () {
             },
             {
                 name: 'Sweet Potato Tator Tots',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'no',
                 link: '<a href="https://minimalistbaker.com/easy-baked-sweet-potato-tater-tots/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Sweet Potato Tator Tots</a>',
                 picture: '<img src="https://mbkr-minimalistbaker.netdna-ssl.com/wp-content/uploads/2014/06/Easy-Baked-Sweet-Potato-Tater-Tots-7-ingredients-vegan-and-SUPER-delicious.jpg" display="block" style="width:200px;height:250px;">'
@@ -270,7 +270,7 @@ $(function () {
             },
             {
                 name: 'Avocado Fries',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'yes',
                 link: '<a href="https://mindfulavocado.com/avocado-fries-four-ingredients/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Avocado Fries</a>',
                 picture: '<img src="https://mindfulavocado.com/wp-content/uploads/2018/01/avocado-fries_006.jpg" display="block" style="width:200px;height:250px;">'
@@ -284,35 +284,35 @@ $(function () {
             },
             {
                 name: 'Corn Fritters',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'no',
                 link: '<a href="https://www.cookclickndevour.com/corn-fritters-recipe-no-deep-fry-sweet-corn-fritters-recipe" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Corn Fritters</a>',
                 picture: '<img src="https://www.cookclickndevour.com/wp-content/uploads/2016/07/corn-fritters-recipe-c1.jpg" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'Thai Peanut Toasty',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'yes',
                 link: '<a href="http://www.chefpriyanka.com/thai-peanut-toasty/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Thai Peanut Toasty</a>',
                 picture: '<img src="http://www.chefpriyanka.com/wp-content/uploads/2017/10/thai-toasty-1.jpg" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'Vegan Bavarian Pretzels',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'no',
                 link: '<a href="https://wellvegan.com/snack/vegan-bavarian-pretzels-oktoberfest" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Vegan Bavarian Pretzels</a>',
                 picture: '<img src="https://bg6fhgmkni-flywheel.netdna-ssl.com/wp-content/uploads/2017/09/bavarian-pretzels-3@15x-683x1024.jpg" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'The Best Hummus',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'yes',
                 link: '<a href="https://mindfulavocado.com/best-hummus-recipe/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">The Best Hummus</a>',
                 picture: '<img src="https://mindfulavocado.com/wp-content/uploads/2017/09/hummus_004.jpg" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'Sweet Potato Wedges',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'no',
                 link: '<a href="http://nodairynocry.com/sweet-potato-wedges/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Sweet Potato Wedges</a>',
                 picture: '<img src="http://nodairynocry.com/wp-content/uploads/2017/12/sweet-potato-wedges6.jpg" display="block" style="width:200px;height:250px;">'
@@ -424,28 +424,28 @@ $(function () {
             },
             {
                 name: 'Ranch Kale Chips',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'yes',
                 link: '<a href="http://riseshinecook.ca/blog/dehydrator-101--raw-vegan-oil-free-ranch-kale-chips" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Ranch Kale Chips</a>',
                 picture: '<img src="http://riseshinecook.ca/file/5a1c0b2700b01a4aa28b16c5" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'Cheezy Broccoli Chips',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'yes',
                 link: '<a href="http://sproutingzen.com/dehydrated-raw-vegan-cheezy-broccoli-chips/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Cheezy Broccoli Chips</a>',
                 picture: '<img src="http://sproutingzen.com/wp-content/uploads/2018/01/dehydrated-vegan-cheezy-broccoli-chips-9-of-11.jpg" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'Ultimate Loaded Nachos',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'no',
                 link: '<a href="https://www.noracooks.com/ultimate-fully-loaded-vegan-nachos/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Ultimate Loaded Nachos</a>',
                 picture: '<img src="https://i2.wp.com/www.noracooks.com/wp-content/uploads/2017/12/IMG_4757.jpg?w=667&ssl=1" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'Better Than Cheese Queso',
-                keyword: 'snack',
+                keyword: 'side',
                 time: 'yes',
                 link: '<a href="https://www.wholly-plants.com/2018/01/09/plant-based-queso/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Better Than Cheese Queso</a>',
                 picture: '<img src="https://i2.wp.com/www.wholly-plants.com/wp-content/uploads/2018/01/Vegan-Queso-2.jpg?resize=768%2C753&ssl=1" display="block" style="width:200px;height:250px;">'
@@ -518,8 +518,6 @@ $(function () {
         if (recipes.length > 0) {
             var sectionBrowse = $("#sectionBrowse");
             var recipeList = $("<ul class='recipeList'>");
-            // var recipeCard = $("#recipeCard");
-            // var listItem = $("#recipeCard");
             recipes.forEach(function (recipes) {
                 var recipeCard = $("<li class='recipeListItem'><div>" + recipes.picture + recipes.link + "</div></li>");
 
