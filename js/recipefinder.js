@@ -1,6 +1,6 @@
 $(function () {
-    var questionNum = 0;													// keep count of question, used for IF condition.
-    // var question = '<h3>Would you like to make a: main, breakfast, snack or dessert?</h3>';				  // first question
+    var questionNum = 0;													
+    				  
     var userInput = {
         keyword: null,
         time: null,
@@ -9,8 +9,8 @@ $(function () {
         '<h3><em>What would you like to make: main, breakfast, side or dessert?</em></h3>',
         '<h3><em>Do you need a recipe that is 30 minutes or less?</em></h3>',
     ]
-    var output = document.getElementById('output');				// store id="output" in output variable
-    output.innerHTML = questions[0];													// ouput first question
+    var output = document.getElementById('output');				
+    output.innerHTML = questions[0];													
 
     function bot() {
         var input = document.getElementById("input").value;
@@ -19,11 +19,11 @@ $(function () {
         if (questionNum == 0) {
             userInput.keyword = input;
 
-            output.innerHTML = "<h3><em>Great...let's find you a " + input + " dish!</em></h3>";// output response
-            document.getElementById("input").value = "";   		// clear text box
-            // question = '<h3>Do you need a recipe that is 30 minutes or less?</h3>';			    	// load next question
+            output.innerHTML = "<h3><em>Great...let's find you a " + input + " dish!</em></h3>";
+            document.getElementById("input").value = "";   		
+            			    	
             setTimeout(timedQuestion, 2000);
-            // output next question after 2sec delay
+            
         }
        
     }
@@ -34,11 +34,11 @@ $(function () {
         setTimeout(clearBot, 5000);
     }
 
-    // //push enter key (using jquery), to run bot function.
+   
     $(document).keypress(function (e) {
         if (e.which == 13) {
-            bot();																						// run bot function when enter key pressed
-            questionNum++;																		// increase questionNum count by 1
+            bot();																						
+            questionNum++;																		
         }
     });
 
@@ -50,7 +50,7 @@ $(function () {
         
     }
 
-    // var clearInput = setTimeout(clearBot, 5000);
+    
 
 
 
@@ -513,8 +513,7 @@ $(function () {
         var recipes = findRecipe();
         var sectionBrowse = $("#sectionBrowse");
         sectionBrowse.empty();
-        // create a loop that displays recipes.
-        // if no results display "no results"
+       
         if (recipes.length > 0) {
             var sectionBrowse = $("#sectionBrowse");
             var recipeList = $("<ul class='recipeList'>");
