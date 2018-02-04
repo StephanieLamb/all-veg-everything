@@ -6,8 +6,8 @@ $(function () {
         time: null,
     }
     var questions = [
-        '<h3>What would you like to make: main, breakfast, side or dessert?</h3>',
-        '<h3>Do you need a recipe that is 30 minutes or less?</h3>',
+        '<h3><em>What would you like to make: main, breakfast, side or dessert?</em></h3>',
+        '<h3><em>Do you need a recipe that is 30 minutes or less?</em></h3>',
     ]
     var output = document.getElementById('output');				// store id="output" in output variable
     output.innerHTML = questions[0];													// ouput first question
@@ -19,7 +19,7 @@ $(function () {
         if (questionNum == 0) {
             userInput.keyword = input;
 
-            output.innerHTML = "<h3>Great...let's find you a " + input + " dish!</h3>";// output response
+            output.innerHTML = "<h3><em>Great...let's find you a " + input + " dish!</em></h3>";// output response
             document.getElementById("input").value = "";   		// clear text box
             // question = '<h3>Do you need a recipe that is 30 minutes or less?</h3>';			    	// load next question
             setTimeout(timedQuestion, 2000);
@@ -63,7 +63,7 @@ $(function () {
                 keyword: 'dessert',
                 time: 'yes',
                 link: '<a href="https://minimalistbaker.com/almond-butter-chocolate-chip-cookies/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Almond Butter Cookies</a>',
-                picture: '<img src="https://mbkr-minimalistbaker.netdna-ssl.com/wp-content/uploads/2017/05/AMAZING-Almond-Butter-Chocolate-Chip-Cookies-vegan-glutenfree-cookies-lowsugar-grainfree-768x1152.jpg" display="block" style="width:200px;height:250px;">'
+                picture: '<img src="https://minimalistbaker.com/wp-content/uploads/2017/05/AMAZING-Almond-Butter-Chocolate-Chip-Cookies-vegan-glutenfree-cookies-lowsugar-grainfree-768x1152.jpg" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'Loaded Sweet Potato Boats',
@@ -77,7 +77,7 @@ $(function () {
                 keyword: 'side',
                 time: 'no',
                 link: '<a href="https://minimalistbaker.com/easy-baked-sweet-potato-tater-tots/" id="buttonLink" target="_blank" class="btn btn-warning btn-xs active" role="button">Sweet Potato Tator Tots</a>',
-                picture: '<img src="https://mbkr-minimalistbaker.netdna-ssl.com/wp-content/uploads/2014/06/Easy-Baked-Sweet-Potato-Tater-Tots-7-ingredients-vegan-and-SUPER-delicious.jpg" display="block" style="width:200px;height:250px;">'
+                picture: '<img src="https://minimalistbaker.com/wp-content/uploads/2014/06/EASY-Sweet-Potato-Tater-Tots-Baked-7-ingredients-and-perfectly-crisp-on-the-outside-and-tedner-on-the-inside-vegan.jpg" display="block" style="width:200px;height:250px;">'
             },
             {
                 name: 'Vegan Cinnamon Rolls',

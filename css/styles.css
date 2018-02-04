@@ -1,29 +1,34 @@
 .jumbotron {
 	
-    background-image: url("https://images.unsplash.com/photo-1474440692490-2e83ae13ba29?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=");
+    background-image: url("http://madlonsbigbear.com/wp-content/uploads/imgp/Rustic-Kitchen-with-Fruit-and-Vegetable-Print-Wallpaper-13-2771.jpg");
     color: white;
     font-family: 'Open Sans', sans-serif;
-    
+    width: 100%;
     border-radius: 5px;
     text-align: center; 
-
-   
+    background-size: cover;
+    
 }
 
-
 #broccoli {
-    width: 59px;
-    height: 56px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
     align-content: left;
     float: left;
-    margin-left: 0px;
-  
-  
+    margin-left: 20px;
+    margin-top: 20px;
+    
 } 
 
+#foodInput {
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
 #title {
-    padding-top: 7px;
+    padding-top: 12px;
+    padding-left: 2px;
 }
 
 #smallHeader {
@@ -35,15 +40,14 @@
   letter-spacing: -0.5px;
   color: #ffffff;
   align-content: left;
-  margin-left: 0px;
-  
-  
+  position: absolute;
+  left: 0px;
+  top: 0px;
 } 
-
 
 #section-browse {
     padding-bottom: 5%;
-
+    background-color: #F5F5F5;
 }
  
  .lead {
@@ -51,65 +55,50 @@
 }
 
 .row2 {
-
 	background-color: #f2f2f2; 
 } 
 
 #input {
-    /* width: 839px;
-    height: 81px;
-    border-radius: 5px; */
     color: black;
-    /* font-size: 24px;
-    text-align: center; */
-    
-} 
- 
-/* #searchSubmit {
-    height: 81px; 
-    
-    color: white;
-    border-radius: 5px;
-    background-color: #9ACD32;
-    float: right;
+    margin-top: 20px;
+    text-align: center;  
 
-}  */
+} 
 
 #container {
     display: inline-block;
-  
 }
+
 .recipeList {
     list-style-type: none;
+    background-color: #F5F5F5;
 }
+
 .recipeListItem {
     display: inline-block;
     margin: 20px;
     border: solid 1px #778899;
     border-radius: 3px;
     padding: 10px; 
-
-
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }   
 
 #buttonLink {
     display: block;
+    margin-top: 10px;
 }
 
-/* #recipeCard {
-    display: inline-block;
-    float: right;
-    height: 401px;
-    width: 300px;
-    border-style: solid;
-    border-width: 1px;
-   
+.form-group {
+    margin-top: 30px;
+}
 
+#upperContent {
+    padding-left: 0px;
+    padding-top: 0px;
+    background-color: #F5F5F5;
+}
 
-} */
-
-
-
-/* #recipeLink {
-    display: inline-block;
-} */
+#lowerContent {
+    background-color: #F5F5F5;
+}
